@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(128, 128, 128, 0.226);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: red;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 100px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.formulario{
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 600px;
+    padding: 15px;
+}
+
+.formulario input{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    height: 30px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+#inputitems{
+    height: 200px;
+}
+
+.btn-submit{
+    background-color: transparent;
+    border: 1px solid red;
+    width: 50%;
+    height: 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn-submit:hover{
+    background-color: red;
+    color: white;
+    transition: 0.2s;
+}
+
+
+.table{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-collapse: collapse;
+}
+
+.table tr td{
+    border: 1px solid black;
+    width: 16.6%;
+    padding: 5px;
+}
+
+
+.btn-table{
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.btn-edit{
+    background-color: dodgerblue;
+}
+
+
+
+.btn-remove{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
